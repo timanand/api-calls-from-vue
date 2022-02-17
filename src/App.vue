@@ -1,15 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CreatePost />
+  <UpdatePost />
+  <DeletePost />
+  <GetEmployees />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GetEmployees from './components/GetEmployees.vue'
+//import CreatePost from './components/CreatePost.vue'
+//import UpdatePost from './components/UpdatePost.vue'
+import DeletePost from './components/DeletePost.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GetEmployees,
+    //CreatePost,
+    //UpdatePost,
+    DeletePost,
   }
 }
 </script>
